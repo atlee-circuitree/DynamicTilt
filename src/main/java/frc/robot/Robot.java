@@ -40,7 +40,7 @@ public class Robot extends TimedRobot {
   private boolean m_reset = false;
   private boolean m_setYawAxis = false;
 
-  private final ADIS16448_IMU m_imu = new ADIS16448_IMU(IMUAxis.kZ, SPI.Port.kOnboardCS0, 4, false, 2, 3);
+  private final ADIS16448_IMU m_imu = new ADIS16448_IMU(IMUAxis.kZ, SPI.Port.kOnboardCS0, 4, false, 1, 2);
 
   /**
    * This function is run when the robot is first started up and should be
